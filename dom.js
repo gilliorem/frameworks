@@ -1,3 +1,5 @@
+// console.log('test cmd commit')
+
 const D = document;
 const B = D.body;
 
