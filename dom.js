@@ -7,7 +7,7 @@ function createHtmlElement(element,parent, text="", _class=[])
 {
     const newHtmlElement = D.createElement(element);
     parent.appendChild(newHtmlElement);
-    newHtmlElement.innerText = text;
+    newHtmlElement.innerHTML = text;
     newHtmlElement.className= _class;
     return newHtmlElement;
 }
